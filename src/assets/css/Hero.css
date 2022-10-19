@@ -1,0 +1,32 @@
+.chevron-anim {
+  animation: chevron-bounce 2s infinite ease-in-out;
+}
+
+@keyframes chevron-bounce {
+  0% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, 5px);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+
+.testimonial-a{
+  animation: testimonial-a 20s infinite linear;
+}
+
+.testimonial-section-1>div{
+  animation-delay: -5s;
+}
+
+@keyframes testimonial-a {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}

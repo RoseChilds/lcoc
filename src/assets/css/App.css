@@ -1,0 +1,12 @@
+.amongus-grow{
+    animation: amongus-grow 25s ease-in-out forwards;
+}
+
+@keyframes amongus-grow {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(3);
+    }
+}
