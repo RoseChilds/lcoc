@@ -2,6 +2,7 @@
 
 The London College of Comedy is a project for my college coursework.
 
+[Live version](https://lcoc.rosechilds.gay/)
 ## Requirements
 NodeJS v16+
 
